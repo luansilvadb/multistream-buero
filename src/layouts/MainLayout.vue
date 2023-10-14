@@ -7,7 +7,7 @@
           <q-toolbar-title class="toolbar-title">
             <router-link :to="{ path: '/' }" class="router-link" @mouseover="hover = true" @mouseleave="hover = false">
               <q-avatar><q-img src="../assets/logo-main.png" /></q-avatar>
-              <b :class="{ 'transition-color': true }" :style="{ color: getColor() }">Daniels</b>
+              <b :class="{ 'transition-color': true }" :style="{ color: getColor() }">Revolta</b>
             </router-link>
           </q-toolbar-title>
           <a href="https://www.rivalry.com/pt" target="_blank" class="icon-link">

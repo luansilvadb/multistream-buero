@@ -31,14 +31,14 @@ const getIframeLoading = computed(() => {
 
 const getVideoSrc = computed(() => {
   return $q.dark.isActive
-    ? 'https://player.twitch.tv/?channel=absoluttlol&parent=absolut.vercel.app&darkpopout'
-    : 'https://player.twitch.tv/?channel=absoluttlol&parent=absolut.vercel.app'
+    ? 'https://player.twitch.tv/?channel=absoluttlol&parent=absolutlol.vercel.app&darkpopout'
+    : 'https://player.twitch.tv/?channel=absoluttlol&parent=absolutlol.vercel.app'
 })
 
 const getChatSrc = computed(() => {
   return $q.dark.isActive
-    ? 'https://www.twitch.tv/embed/absoluttlol/chat?parent=absolut.vercel.app&darkpopout'
-    : 'https://www.twitch.tv/embed/absoluttlol/chat?parent=absolut.vercel.app'
+    ? 'https://www.twitch.tv/embed/absoluttlol/chat?parent=absolutlol.vercel.app&darkpopout'
+    : 'https://www.twitch.tv/embed/absoluttlol/chat?parent=absolutlol.vercel.app'
 })
 
 const iframeLoaded = () => {

@@ -10,9 +10,7 @@
               <b :class="{ 'transition-color': true }" :style="{ color: getColor() }">Brtt</b>
             </router-link>
           </q-toolbar-title>
-          <a href="https://www.rivalry.com/pt" target="_blank" class="icon-link">
-            <q-btn @click="handleButtonClick" class="icon-button"><img src="../assets/rivalry.svg" alt="Seu Ícone" /></q-btn>
-          </a>
+
           <q-space />
           <q-btn flat round dense :icon="fullscreenIcon" @click="toggleFullscreen"><q-tooltip>Full screen</q-tooltip></q-btn>
           <q-btn dense flat round icon="dark_mode" @click="toggleDarkMode"><q-tooltip>Tema</q-tooltip></q-btn>

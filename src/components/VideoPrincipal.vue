@@ -23,7 +23,7 @@ import { ref } from 'vue'
 export default {
   setup () {
     const loading = ref([false, false, false, false, false, false])
-    const videoSrc = ref('https://player.twitch.tv/?channel=baiano&parent=revolta.vercel.app&muted=true')
+    const videoSrc = ref('https://player.twitch.tv/?channel=baiano&parent=brtt.vercel.app&muted=true')
 
     function simulateProgress (number) {
       // Definimos o estado de carregamento

@@ -31,14 +31,14 @@ const getIframeLoading = computed(() => {
 
 const getVideoSrc = computed(() => {
   return $q.dark.isActive
-    ? 'https://player.twitch.tv/?channel=revolta&parent=revolta.vercel.app&darkpopout'
-    : 'https://player.twitch.tv/?channel=revolta&parent=revolta.vercel.app'
+    ? 'https://player.twitch.tv/?channel=brtt&parent=brtt.vercel.app&darkpopout'
+    : 'https://player.twitch.tv/?channel=brtt&parent=brtt.vercel.app'
 })
 
 const getChatSrc = computed(() => {
   return $q.dark.isActive
-    ? 'https://www.twitch.tv/embed/revolta/chat?parent=revolta.vercel.app&darkpopout'
-    : 'https://www.twitch.tv/embed/revolta/chat?parent=revolta.vercel.app'
+    ? 'https://www.twitch.tv/embed/brtt/chat?parent=brtt.vercel.app&darkpopout'
+    : 'https://www.twitch.tv/embed/brtt/chat?parent=brtt.vercel.app'
 })
 
 const iframeLoaded = () => {
